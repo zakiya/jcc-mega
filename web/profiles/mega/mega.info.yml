@@ -1,6 +1,6 @@
-name: Trial
+name: JCC Mega
 type: profile
-description: 'Description of your profile.'
+description: ''
 core: 8.x
 
 install:
@@ -56,8 +56,6 @@ install:
 - views_ui
 - menu_link_content
 - views
-
-- trial_content
 
 dependencies:
 - node
