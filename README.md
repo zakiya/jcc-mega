@@ -7,11 +7,7 @@
 
 3. Create localhost and database and add to `settings.php` and/or `settings.local.php` and/or `services.local.yml`
 
-4. `drush si trial`
-
-5. `drush pmu trial_content`
-
-6. `drush en trial_content`
+4. `drush si mega`
 
 7. Modify `/drush/drush.yml`
 
@@ -19,6 +15,5 @@
 
 # @Todo
 - Create example settings.local.php and services.local.php files and scripts.
-- Default content doesn't get created on initial install. Need to `drush pmu trial_content` + `drush en trial_content`.
 - Handle dev dependencies better.
 - Delete composer.lock?
